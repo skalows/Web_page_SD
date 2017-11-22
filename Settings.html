@@ -1,16 +1,334 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" charset="utf-8">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <title> Settings </title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <title> Setting </title>
   </head>
+    <!-- Pantalla Uno -->
   <body class="body">
-      <!-- Pantalla Tres -->
- <h1> lever </h1>
- <a href="Index.html"> Click me </a>
+    <div class="container-fluid">
+      <section class="main row">
+        <!--Navbar-->
+     <div class="col-xs-2 col-md-3 nav">
+       <header>
+         <ul class="li">
+           <li><a href=""><i class="material-icons">home</i>  HOME</a></li>
+           <li><a href="Leadsinf.html"><i class="material-icons">account_circle</i>  LEADS</a><OME>
+           <li><a href=""><i class="material-icons">assignment_turned_in</i>  TASKS</a></li>
+           <li><a href="Forms.html"><i class="material-icons">content_copy</i>  FORMS</a></li>
+           <li><a href=""><i class="material-icons">person_add</i>  REFFERALS</a></li>
+           <li><a href=""><i class="material-icons">list</i>  CHECKLISTS</a></li>
+           <li><a href=""><i class="material-icons">insert_invitation</i>  CALENDAR</a></li>
+           <li><a href="Settings.html"><i class="material-icons">settings</i>  SETTINGS</a></li>
+         </ul>
+       </header>
+      </div>
+      <!--Div largo y estructura con 3 botones arriba-->
+        <div class="col-xs-3 col-md-9">
+          <div class="row">
+            <div class="col-6 col-sm-6 inputWithIcon" style="background:#F4F6F6;">
+              <input type="email" class="lupa"><i class="material-icons">search</i></input>
+             </div>
+             <div class="col-1 col-sm-1 divlo">
+                <a href=""><i class="material-icons">apps</i></a>
+             </div>
+             <div class="col-3 col-sm-3 offset-md-2 divlo">
+              <i class="material-icons">mail_outline</i><a class="spans">Hello, Shaun Clark</a>
+             </div>
+          </div>
+          <div class="container-fluid">
+            <div class="col-10 col-sm-10 offset-md-1 divso">
+            <div class="row" style="background-color:#f4f7f9">
+              <div class="container">
+              <!--Div grande Leads y cabecera-->
+              <header class="row">
+              <span><h3 class="col-2 col-sm-2" style="font-family:'Roboto',sans-serif; margin-left:15%; margin-top:70px;">Leads</h3></span>
+              </header>
+              <div class="row">
+              <div class="col-4 col-sm-4">
+              <span>Showing</span> <select class="select"> <option value=""> 20 </option></select> <span>out of 521 contacts</span>
+              </div>
+              <div class="col-4 col-sm-4 searchicon" style="background:#F4F6F6;">
+                <input type="email" class="lupa"><i class="material-icons">search</i></input>
+               </div>
+              <div class="col-4 col-sm-4">
+                <select class="select"><option value=""> Type </option></select>
+                <select class="select"><option value=""> Source </option></select>
+                <button class="col-6 col-sm-6 btn">+ ADD CONTACT</button>
+              </div>
+              </div>
+              </div>
+              <div class="col-1 col-sm-1">
+                <span style="color:#8197a2;">LEAD</span>
+              </div>
+              <div class="col-1 col-sm-1 offset-md-2">
+                <span style="color:#8197a2;">EMAIL</span>
+              </div>
+              <div class="col-1 col-sm-1 offset-md-2">
+                <span style="color:#8197a2;">PHONE</span>
+              </div>
+              <div class="col-1 col-sm-1 offset-md-1">
+                <span style="color:#8197a2;">SOURCE</span>
+              </div>
+            </div>
+            <!--primera columnade datos-->
+            <div class="row">
+              <div class="col-1 col-sm-1">
+                <input type="image" src="images/rc.png" class="imag">
+              </div>
+              <div class="col-2 col-sm-2">
+                <p class="span1">Nataascha Anderson</p><p class="greyword">Case:divorce</p>
+              </div>
+              <div class="col-3 col-sm-3">
+                <a class="a1" href="#">natascha.anderson@gmail.com</a>
+              </div>
+              <div class="col-2 col-sm-2">
+                <p>+01/47&nbsp;433&nbsp;2140</p>
+              </div>
+              <div class="col-2 col-sm-2">
+                <select class="select">
+                <option value="">Internet Search</option>
+                <option value="">Facebook</option>
+                <option value="">Refferal</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm-1 select-field">
+                <select class="select-field">
+                  <option class="select-field">Lead </option>
+                  <option class="select-field">Lead</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm1" >
+                <input type="button" class="botoncito " value="..."></input>
+              </div>
+            </div>
+            <!--segunda columnade datos-->
+            <div class="row">
+              <div class="col-1 col-sm-1">
+              <input type="image" src="images/ma.png" class="imag">
+              </div>
+              <div class="col-2 col-sm-2">
+                <p class="span1">Mark Adams</p><p class="greyword">Case:Fraude</p>
+              </div>
+              <div class="col-3 col-sm-3">
+                <a class="a1" href="#">mark.adams@company.com</a>
+              </div>
+              <div class="col-2 col-sm-2">
+                <p>/</p>
+              </div>
+              <div class="col-2 col-sm-2">
+                <select class="select">
+                <option value="">Internet Search</option>
+                <option value="">Facebook</option>
+                <option value="">Refferal</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm-1 select-field">
+                <select class="select-field">
+                  <option class="select-field"> Lead </option>
+                  <option class="select-field">Lead</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm1" >
+                <input type="button" class="botoncito" value="..."></input>
+              </div>
+            </div>
+            <!--tercera columnade datos-->
+            <div class="row">
+              <div class="col-1 col-sm-1">
+              <input type="image" src="images/mujer.png" class="imag">
+              </div>
+              <div class="col-2 col-sm-2">
+                <p class="span1">Sadie Williams</p><p class="greyword">Case:DUI</p>
+              </div>
+              <div class="col-3 col-sm-3">
+                <a class="a1" href="#">williamslaw@gmail.com</a>
+              </div>
+              <div class="col-2 col-sm-2">
+                <p>+01/47&nbsp;433&nbsp;2140</p>
+              </div>
+              <div class="col-2 col-sm-2">
+                <select class="select">
+                <option value="">Internet Search</option>
+                <option value="">Facebook</option>
+                <option value="">Refferal</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm-1 select-field">
+                <select class="select-field">
+                  <option class="select-field"> Lead </option>
+                  <option class="select-field">Lead</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm1" >
+                <input type="button" class="botoncito" value="..."></input>
+              </div>
+            </div>
+            <!--cuarta columnade datos-->
+            <div class="row">
+              <div class="col-1 col-sm-1">
+              <input type="image" src="images/ns.png" class="imag">
+              </div>
+              <div class="col-2 col-sm-2">
+                <p class="span1">Nomram W. Samsonite</p><p class="greyword">Case:Tax Evasion</p>
+              </div>
+              <div class="col-3 col-sm-3">
+                <a class="a1" href="#">natascha.anderson@gmail.com</a>
+              </div>
+              <div class="col-2 col-sm-2">
+                <p>+01/47&nbsp;433&nbsp;2140</p>
+              </div>
+              <div class="col-2 col-sm-2">
+                <select class="select">
+                <option value="">Internet Search</option>
+                <option value="">Facebook</option>
+                <option value="">Refferal</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm-1 select-field">
+                <select class="select-field">
+                  <option class="select-field"> Lead </option>
+                  <option class="select-field">Lead</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm1" >
+                <input type="button" class="botoncito" value="..."></input>
+              </div>
+            </div>
+            <!--quinta columnade datos-->
+            <div class="row">
+              <div class="col-1 col-sm-1">
+                <input type="image" src="images/rc.png" class="imag">
+              </div>
+              <div class="col-2 col-sm-2">
+                <p class="span1">Nataascha Anderson</p><p class="greyword">Case:divorce</p>
+              </div>
+              <div class="col-3 col-sm-3">
+                <a class="a1" href="#">natascha.anderson@gmail.com</a>
+              </div>
+              <div class="col-2 col-sm-2">
+                <p>+01/47&nbsp;433&nbsp;2140</p>
+              </div>
+              <div class="col-2 col-sm-2">
+                <select class="select">
+                <option value="">Internet Search</option>
+                <option value="">Facebook</option>
+                <option value="">Refferal</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm-1 select-field">
+                <select class="select-field">
+                  <option class="select-field"> Lead </option>
+                  <option class="select-field">Lead</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm1" >
+                <input type="button" class="botoncito" value="..."></input>
+              </div>
+            </div>
+            <!--sexta columnade datos-->
+            <div class="row">
+              <div class="col-1 col-sm-1">
+              <input type="image" src="images/ma.png" class="imag">
+              </div>
+              <div class="col-2 col-sm-2">
+                <p class="span1">Mark Adams</p><p class="greyword">Case:Fraude</p>
+              </div>
+              <div class="col-3 col-sm-3">
+                <a class="a1" href="#">mark.adams@company.com</a>
+              </div>
+              <div class="col-2 col-sm-2">
+                <p>/</p>
+              </div>
+              <div class="col-2 col-sm-2">
+                <select class="select">
+                <option value="">Internet Search</option>
+                <option value="">Facebook</option>
+                <option value="">Refferal</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm-1 select-field">
+                <select class="select-field">
+                  <option class="select-field"> Lead </option>
+                  <option class="select-field">Lead</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm1" >
+                <input type="button" class="botoncito" value="..."></input>
+              </div>
+            </div>
+            <!--septima columnade datos-->
+            <div class="row">
+              <div class="col-1 col-sm-1">
+              <input type="image" src="images/mujer.png" class="imag">
+              </div>
+              <div class="col-2 col-sm-2">
+                <p class="span1">Sadie Williams</p><p class="greyword">Case:DUI</p>
+              </div>
+              <div class="col-3 col-sm-3">
+                <a class="a1" href="#">williamslaw@gmail.com</a>
+              </div>
+              <div class="col-2 col-sm-2">
+                <p>+01/47&nbsp;433&nbsp;2140</p>
+              </div>
+              <div class="col-2 col-sm-2">
+                <select class="select">
+                <option value="">Internet Search</option>
+                <option value="">Facebook</option>
+                <option value="">Refferal</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm-1 select-field">
+                <select class="select-field">
+                  <option class="select-field"> Lead </option>
+                  <option class="select-field">Lead</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm1" >
+                <input type="button" class="botoncito" value="..."></input>
+              </div>
+            </div>
+            <!--octava columnade datos-->
+            <div class="row">
+              <div class="col-1 col-sm-1">
+              <input type="image" src="images/ns.png" class="imag">
+              </div>
+              <div class="col-2 col-sm-2">
+                <p class="span1">Nomram W. Samsonite</p><p class="greyword">Case:Tax Evasion</p>
+              </div>
+              <div class="col-3 col-sm-3">
+                <a class="a1" href="#">natascha.anderson@gmail.com</a>
+              </div>
+              <div class="col-2 col-sm-2">
+                <p>+01/47&nbsp;433&nbsp;2140</p>
+              </div>
+              <div class="col-2 col-sm-2">
+                <select class="select">
+                <option value="">Internet Search</option>
+                <option value="">Facebook</option>
+                <option value="">Refferal</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm-1 select-field">
+                <select class="select-field">
+                  <option class="select-field"> Lead </option>
+                  <option class="select-field">Lead</option>
+                </select>
+              </div>
+              <div class="col-1 col-sm1" >
+                <input type="button" class="botoncito" value="..."></input>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      </div>
   </body>
 </html>
