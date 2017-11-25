@@ -30,9 +30,12 @@ header ul li a {
 a{
   color: #8399a4!important;
 }
+a i:hover{
+  text-decoration: none !important;
+  color: #08abf4 !important;
+}
 a:hover{
   text-decoration: none !important;
-  color: #515A5A !important;
 }
 .li{
   list-style: none;
@@ -143,9 +146,6 @@ input[type=text]{
   font-size: small;
   font-weight: bold;
 }
-.imag{
-  left: 0px;
-}
 .a1{
   color: #03a9f4 !important;
 }
@@ -195,7 +195,6 @@ input[type=text]{
   border: solid #eceff1 0px;
   text-decoration: none;
 }
-
 .boton:hover {
   background: #D6D3D3;
   text-decoration: none;
@@ -209,3 +208,154 @@ input[type=text]{
   text-align: center;
   vertical-align: middle;
 }
+.nav-letras{
+  font-weight: bold;
+  font-size: 90%;
+  font-family: 'Roboto',sans-serif;
+}
+.nav-letras a:hover{
+    color: #08abf4 !important;
+}
+.anuncio{
+  margin-top: 70px;
+  width: 350px;
+  height: 500px;
+  border: 2px solid #e6ecef;
+  border-radius: 4px;
+}
+.recuadro{
+  position: relative;
+  width: 250px;
+  height: 150px;
+  padding: 2px;
+  border: 2px solid #e6ecef;
+  border-radius: 4px;
+}
+.recuadro:hover{
+  border: 2px solid #03a9f4;
+}
+.recuadro a:hover{
+  color: #03a9f4;
+}
+.input-text{
+  width: 94%!important;
+  height: 50px;
+  border: 3px solid #e6ecef!important;
+}
+.liner{
+  margin-left: 21%!important;
+}
+.circulo {
+  margin-top: 15px;
+  margin-left: -5px;
+  height: 40px;
+  width: 40px;
+  display: table-cell;
+  text-align: center;
+  font-size:16px;
+  vertical-align: middle;
+  border: 3px solid #e6ecef;
+  border-radius: 50%;
+  background: transparent;
+}
+.select-1{
+  height: 40px;
+  width: 100%;
+  border: 2px solid #e6ecef!important;
+  border-radius: 4px;
+}
+.span2{
+  font-family:'Roboto',sans-serif;
+  font-size: 90%;
+  color: #8399a4;
+}
+.recuadro1{
+  background-color: white;
+  top: 40px;
+  position: relative;
+  width: 500px;
+  height: 450px;
+  padding: 2px;
+  border: 2px solid #e6ecef;
+  border-radius: 4px;
+}
+.recuadro1{
+  background-color: white;
+  top: 40px;
+  position: relative;
+  width: 87%;
+  height: 450px;
+  padding: 2px;
+  border: 2px solid #e6ecef;
+  border-radius: 4px;
+}
+.recuadro2{
+  margin-top: 60px;
+  background-color: white;
+  position: relative;
+  width: 87%;
+  height: 300px;
+  padding: 2px;
+  border: 2px solid #e6ecef;
+  border-radius: 4px;
+}
+.recuadro3{
+  background-color: white;
+  top: 40px;
+  position: relative;
+  width: 87%;
+  height: 100px;
+  padding: 2px;
+  border: 2px solid #e6ecef;
+  border-radius: 4px;
+}
+.recuadro4{
+  top: 60px;
+  background-color: white;
+  position: relative;
+  width: 87%;
+  height: 600px;
+  padding: 2px;
+  border: 2px solid #e6ecef;
+  border-radius: 4px;
+}
+.boton1 {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family:'Roboto',sans-serif;
+  font-weight: bold;
+  color: #78909c;
+  font-size: 15px;
+  background: transparent;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #e6ecef;
+  text-decoration: none;
+}
+.boton1:hover {
+  background: #D6D3D3;
+  text-decoration: none;
+}
+.a2 {
+  font-family:'Roboto',sans-serif;
+  font-weight: bold;
+  color: #08abf4!important;
+  font-size: 15px;
+  background: transparent;
+  text-decoration: none;
+  margin-top: 8px;
+}
+.mi-input::placeholder{
+   color: #D6D3D3;
+   font-style: italic;
+   text-align: inherit;
+ }
+ .textarea{
+    width: 100%;
+    height: 25%;
+    border: none;
+ }
+ .textarea::selection{
+   text-decoration: none;
+   border: 0px;
+ }
